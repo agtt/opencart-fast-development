@@ -14,6 +14,12 @@ $list=array("heading_title","my_text");
 
 getLanguage($this->language,$list,$data);
 
+#Load post request and config variable
+
+$list=array("examle_example","example2_example2");
+
+getInput($this->request,$this->config,$list,$data);
+
 
 
 
