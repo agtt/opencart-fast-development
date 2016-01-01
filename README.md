@@ -14,6 +14,7 @@ themeload($this->load,$this->response,$data,"example/example.tpl");
 Load Language variable
 
 $list=array("heading_title","my_text");
+
 getLanguage($this->language,$list,$data);
 
 
